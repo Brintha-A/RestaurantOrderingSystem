@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Food Menu</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+    <h1>🍴 Food Menu</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="cart.html">Cart</a>
+        <a href="login.html">Login</a>
+    </nav>
+</header>
+
+<main>
+    <h2>Our Menu</h2>
+
+    <div class="food">
+        <h3>🍛 Chicken Biryani</h3>
+        <p>₹180</p>
+        <button onclick="addToCart('Chicken Biryani',180)">Add</button>
+    </div>
+
+    <div class="food">
+        <h3>🍕 Cheese Pizza</h3>
+        <p>₹250</p>
+        <button onclick="addToCart('Cheese Pizza',250)">Add</button>
+    </div>
+
+    <div class="food">
+        <h3>🍔 Chicken Burger</h3>
+        <p>₹150</p>
+        <button onclick="addToCart('Chicken Burger',150)">Add</button>
+    </div>
+</main>
+
+<script src="js/menu.js"></script>
+</body>
+</html>
